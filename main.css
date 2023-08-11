@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Comparador de valores</h1>
+        <h3>Insira os valores nos campos abaixo</h2>
+
+        <form id="formNumero">
+            <input type="number" id="numA" required placeholder="VALOR A" />
+            <input type="number" id="numB" required placeholder="VALOR B" />
+            <button id="btn-enviar" type="validate"> Validar</button>
+            <button id="btn-reset" type="reset">Reiniciar valores</button>
+
+        </form>
+    </div>
+    <script src="./main.js"></script>
+
+</body>
+</html>
